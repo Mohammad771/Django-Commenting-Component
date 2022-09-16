@@ -25,6 +25,25 @@ def home(request):
     #  ========> Get the newest comment for an object 
 
     # print(get_newest_comment(sample_object))
+
+
+    #  ========> Updating a comment
+
+    # sample_comment = get_newest_comment(sample_object)
+    # print("Old comment text: " + sample_comment.comment_text)
+
+    # if update_comment(sample_comment, request.user, "A normal comment"):
+
+    #     print(get_newest_comment(sample_object))
+
+
+    #  ========> Deleting a comment
+
+    # sample_comment = get_newest_comment(sample_object)
+    # print(sample_comment)
+    # if delete_comment(sample_comment, request.user):
+
+    #     print("The comment has been successfully deleted")
     
     return HttpResponse('Hello, this is a reusable commenting component')
 
